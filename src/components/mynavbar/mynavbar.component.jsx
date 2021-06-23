@@ -6,7 +6,7 @@ import "./mynavbar.style.css";
 
 const MyNavbar = () => {
   return (
-    <div>
+    <div id ='home'>
       <Navbar
         collapseOnSelect
         expand="lg"
