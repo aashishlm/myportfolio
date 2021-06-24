@@ -1,0 +1,52 @@
+.head {
+    color:red;
+    text-align: center;
+}
+.home{
+  max-width: 2000px;
+  max-height: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hello:hover{
+  border: none;
+  background: #ff7a59;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease; 
+  
+  
+}
+.home-row{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.size{
+  max-width: 4em;
+  max-height: 8em;
+}
+.hello{
+  height: 200px;
+  
+  width: 400px;
+}
+.home-row > div {
+  margin: 20px;
+}
+@media (max-width: 800px) {
+  .home-row {
+    flex-direction: column;
+  }
+}
+
+
+
+

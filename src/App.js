@@ -7,6 +7,7 @@ import About from './pages/About/about';
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container'
+import Skill from './pages/Skills/skills'
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
         </Parallax>
         
       </div>
+      <Skill/>
       
     </div>
   );
