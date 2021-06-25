@@ -3,6 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
+import Netflix_clone from '../../assets/img/projects/Netflix_clone.jpg';
 import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
 import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
 import L_SmartBrain from "../../assets/img/projects/brain.webp";
@@ -123,13 +124,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
+                  href="https://netflix-clone-b72d0.web.app/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
+                  href="https://github.com/aashishlm/netflixClone"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -142,8 +143,8 @@ const TimeLine = () => {
             <ImageEvent
             date="01/10/2020"
             className="text-center"
-            text="React ToDo App"
-            src={L_ReactToDoList}
+            text=" Netflix Clone App"
+            src={Netflix_clone}
             alt="React ToDo App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -160,7 +161,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> This is a Netflix App created with React and Movies API that shows trending and hot items in Netflix
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -224,13 +225,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
+                  href="https://netflix-clone-b72d0.web.app/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
+                  href="https://github.com/aashishlm/netflixClone"
                   target="_blank"
                 >
                   SOURCE CODE
