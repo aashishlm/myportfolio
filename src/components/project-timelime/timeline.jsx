@@ -225,7 +225,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://netflix-clone-b72d0.web.app/"
+                  href="https://aashishlm.github.io/netflixClone/"
                   target="_blank"
                 >
                   SEE LIVE
