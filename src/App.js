@@ -7,31 +7,24 @@ import About from './pages/About/about';
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container'
-import Skill from './pages/Skills/skills'
+import Skills from './pages/skills/skills.component';
+import Experience from './pages/Experience/experience';
+import Timeline from './components/project-timelime/timeline'
+import Contact from './pages/contactform/contact';
+import FooterPanel from './components/footer/footer';
 
 const App = () => {
   return (
-    <div className='app' style={{ position:"relative"}}>
-      <Navbar />
+    <div className='App' style={{ position:"relative"}}>
+      <Navbar/>
       <MyCarousal/>
       <TitleMessage/>
-      <div>
-        <Parallax
-        blur={{ min: -1000, max: 1000 }}
-        bgImage={require('./assets/img/parallex/background.webp')}
-        bgImageAlt="comming"
-        strength={-200}
-    >
-        <Container className="container-box rounded">
-         <Fade duration={500}>
-          <About/>
-          </Fade>
-          
-        </Container>
-        </Parallax>
-        
-      </div>
-      <Skill/>
+      <About/>
+      <Skills/>
+      <Experience/>
+      <Timeline/>
+      <Contact/>
+      <FooterPanel/>
       
     </div>
   );

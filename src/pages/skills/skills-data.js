@@ -24,7 +24,7 @@ import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
 
-export const skillsdata = {
+export const skills = {
   frontend: [
     {
       link: "https://en.wikipedia.org/wiki/HTML5",
