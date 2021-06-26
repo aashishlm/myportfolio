@@ -2,7 +2,7 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
+import todoapp from "../../assets/img/projects/todoapp.jpg";
 import Netflix_clone from '../../assets/img/projects/Netflix_clone.jpg';
 import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
 import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
@@ -43,7 +43,7 @@ const TimeLine = () => {
             date="01/10/2020"
             className="text-center"
             text="React ToDo App"
-            src={L_ReactToDoList}
+            src={todoapp}
             alt="React ToDo App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -124,13 +124,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://netflix-clone-b72d0.web.app/"
+                  href="https://aashishlm.github.io/todoapp/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/aashishlm/netflixClone"
+                  href="https://github.com/aashishlm/todoapp"
                   target="_blank"
                 >
                   SOURCE CODE
