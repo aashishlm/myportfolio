@@ -2,7 +2,7 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import todoapp from "../../assets/img/projects/todoapp.jpg";
+import Todoapp from "../../assets/img/projects/todoapp.jpg";
 import Netflix_clone from '../../assets/img/projects/Netflix_clone.jpg';
 import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
 import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
@@ -43,7 +43,7 @@ const TimeLine = () => {
             date="01/10/2020"
             className="text-center"
             text="React ToDo App"
-            src={todoapp}
+            src={Todoapp}
             alt="React ToDo App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
